@@ -2,10 +2,11 @@ arch:
   - amd64
   - ppc64le
 language: node_js
+#updating the node_js versions to latest versions 12, 13, 14, 15
 node_js:
-  - '0.8'
-  - '0.10'
-  - '0.12'
-  - 'iojs'
+  - '12'
+  - '13'
+  - '14'
+  - '15'
 before_install:
   - npm install -g npm@latest
